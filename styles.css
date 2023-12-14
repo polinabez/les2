@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+h1{
+    margin-top: 15px;
+    color: #31161b;
+}
+body{
+    background-color: #F2F4F3;
+    color: #0A0908;
+    font-size: 20px;
+    /* font-style: italic;  это стиль текста(курсив и тд)*/
+    /* letter-spacing: 2px; это растоянии букв друг от друга */
+    /* word-spacing: 10px; это отступ слов друг от доуга*/
+font-family: 'Raleway', sans-serif;
+/* font-weight: 600; жирность текста */
+}
+
+.title{
+    color: #21080D;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 14px #8f8883;
+}
+
+.avatar{
+    border-radius: 50px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+    /* box-shadow: ; Тень картинки */
+}
+.avatar2{
+    border-radius: 50px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+}
+.avatar3{
+    border-radius: 360px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+}
+.card{
+    background-color: #B6A391;
+    border-radius: 24px;
+    padding: 10px 10px;
+    border: 3px #21080D solid;
+    margin-top: 20px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+}
+.container{
+max-width: 1080px;
+margin: 0 auto;
+}
+.list{
+    list-style: none;
+    padding: 0px;
+   color: #F2F4F3;
+    width: 100%;
+  
+}
+.list li{
+    padding-top: 15px;
+    background-color: #F2F4F3;
+}
+.list li:hover{
+    background-color: #B6A391;
+}
+.table{
+    width: 100%;
+}
+.table tr:nth-child(1) td{
+    background-color: #F2F4F3;
+}
+a{
+    color: #0A0908;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.5;
+}
+a:active{
+    color: rgb(82, 5, 5);
+}
+.contacts{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.contacts li{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding-bottom: 0px;
+}
+.about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 40px;
+}
+.box{
+    background-color: aqua;
+    width: 100%;
+    position: relative;
+}
+.inner{
+    width: 40px;
+    height: 40px;
+    background-color: #21080D;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+@media(max-width:500px){
+    body {
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    .title{
+        color: #21080D;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 14px #8f8883;
+    }
+    .avatar{
+        width: 150px;
+        height: 200px;
+    }
+    .avatar2{
+        width: 300px;
+        height: 220px;
+    }
+    .inner{
+        width: 20px;
+        height: 20px;
+        background-color: #21080D;
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+    }
+    .contacts{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .list{
+        list-style: none;
+        padding: 0%;
+        color: #F2F4F3;
+        width: 100%;
+    }
+    .list li{
+        background-color: #F2F4F3;
+    }
+}
